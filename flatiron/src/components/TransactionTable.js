@@ -44,4 +44,5 @@ const TransactionTable = ({ transactions, searchTerm, onDeleteTransaction, onSor
     );
   };
 
-  
+  export default TransactionTable;
+
