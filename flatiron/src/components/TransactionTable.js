@@ -6,9 +6,9 @@ const TransactionTable = ({ transactions, searchTerm, onDeleteTransaction, onSor
     );
 
     return(
-        <div>
+        <div className="table">
         <h2>Transaction Table</h2>
-        <table>
+        <table className="custom-table">
           <thead>
             <tr>
               <th>

@@ -1,3 +1,75 @@
-body{
-  background: linear-gradient(109.6deg, rgb(41, 125, 182) 3.6%, rgb(77, 58, 151) 51%, rgb(103, 55, 115) 92.9%);
+/* Add the necessary fonts to be used */
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/Poppins-Bold.otf);
+}
+@font-face {
+  font-family: Futura;
+  src: url(./assets/fonts/Futura\ Heavy\ font.ttf);
+}
+/* End of adding fonts */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(
+    109.6deg,
+    rgb(41, 125, 182) 3.6%,
+    rgb(77, 58, 151) 51%,
+    rgb(103, 55, 115) 92.9%
+  );
+  
+}
+h1 {
+  text-align: center;
+  font-family: Poppins;
+}
+/* Style the h2 transaction and search table */
+h2 {
+  font-family: Poppins;
+  margin-left: 10px;
+}
+/* Style Search button */
+.button-56 {
+  padding: 6px 20px;
+  font-family: Futura;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* Style Search  Transactions button */
+.custom-placeholder {
+  padding: 4px 20px;
+  font-family: Futura;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+/* Style the transaction table button */
+.button-85 {
+  padding: 6px 20px;
+  font-family: Futura;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+/* Align the transaction table */
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+/* Style the custom table */
+.custom-table {
+  font-family: Futura;
+  font-size: 17px;
+ 
+}
+/* Style the delete button */
+.button-78 {
+  padding: 5px 20px;
+  font-family: Futura;
+  border: 2px solid blue;
+  border-radius: 20px;
+  cursor: pointer;
 }

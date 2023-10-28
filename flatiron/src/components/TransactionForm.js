@@ -32,23 +32,27 @@ const TransactionForm = ({ onAddTransaction }) => {
           placeholder="Description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
+          className="description-placeholder"
         />
         <input
           type="number"
           placeholder="Amount"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
+          className="amount-placeholder"
         />
         <input
           type="text"
           placeholder="Category"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
+          className="categoru-placeholder"
         />
         <input
           type="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
+          className="input-placeholder"
         />
         <button type="submit" className="button-73">Add Transaction</button>
       </form>
