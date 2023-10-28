@@ -24,4 +24,36 @@ const TransactionForm = ({ onAddTransaction }) => {
   };
 
   return (
- 
+    <div>
+      <h2>Add New Transaction</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Description"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+        />
+        <input
+          type="number"
+          placeholder="Amount"
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Category"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        />
+        <input
+          type="date"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+        />
+        <button type="submit" className="button-73">Add Transaction</button>
+      </form>
+    </div>
+  );
+};
+
+export default TransactionForm;
