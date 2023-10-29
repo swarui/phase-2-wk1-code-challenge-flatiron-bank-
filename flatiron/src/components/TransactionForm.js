@@ -46,7 +46,7 @@ const TransactionForm = ({ onAddTransaction }) => {
           placeholder="Category"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="categoru-placeholder"
+          className="category-placeholder"
         />
         <input
           type="date"

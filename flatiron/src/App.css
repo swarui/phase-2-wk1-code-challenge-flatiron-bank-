@@ -18,7 +18,6 @@ body {
     rgb(77, 58, 151) 51%,
     rgb(103, 55, 115) 92.9%
   );
-  
 }
 h1 {
   text-align: center;
@@ -36,6 +35,8 @@ h2 {
   border: 2px solid black;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.3s;
+  background-color: rgb(104, 38, 167);
 }
 /* Style Search  Transactions button */
 .custom-placeholder {
@@ -44,6 +45,10 @@ h2 {
   border-radius: 20px;
   margin-left: 10px;
 }
+.button-56:hover{
+  background-color: blueviolet;
+}
+
 /* Style the transaction table button */
 .button-85 {
   padding: 6px 20px;
@@ -51,7 +56,6 @@ h2 {
   border: 2px solid black;
   border-radius: 20px;
   cursor: pointer;
-  
 }
 /* Align the transaction table */
 th,
@@ -63,7 +67,6 @@ td {
 .custom-table {
   font-family: Futura;
   font-size: 17px;
- 
 }
 /* Style the delete button */
 .button-78 {
@@ -72,4 +75,48 @@ td {
   border: 2px solid blue;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.3s;
+}
+/* Hover effect */
+.button-78:hover {
+  background-color: purple;
+}
+/* Style description placeholder */
+.description-placeholder {
+  margin-left: 10px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-family: Futura;
+  color: #ad2121;
+}
+/* Style amount placeholder */
+.amount-placeholder {
+  margin-left: 10px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-family: Futura;
+}
+/* Style category placeholder */
+.category-placeholder {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: Futura;
+}
+.input-placeholder {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: Futura;
+}
+.button-73 {
+  margin-left: 10px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-family: Futura;
+  transition: 0.3s;
+}
+.button-73:hover{
+  background-color: blueviolet;
 }
