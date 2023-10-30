@@ -70,7 +70,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Bank of Flatiron</h1>
+      <h1>Bank of <span>Flatiron</span></h1>
       <SearchBar onSearch={setSearchTerm} />
       <TransactionTable
         transactions={transactions}

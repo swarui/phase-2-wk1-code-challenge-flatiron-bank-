@@ -19,9 +19,13 @@ body {
     rgb(103, 55, 115) 92.9%
   );
 }
+/* Style the main heding */
 h1 {
   text-align: center;
   font-family: Poppins;
+}
+span{
+  color: rgb(203, 203, 250);
 }
 /* Style the h2 transaction and search table */
 h2 {
