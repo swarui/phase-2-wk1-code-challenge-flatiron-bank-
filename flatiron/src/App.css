@@ -1,11 +1,11 @@
 /* Add the necessary fonts to be used */
 @font-face {
   font-family: Poppins;
-  src: url(./assets/fonts/Poppins-Bold.otf);
+  src: local('Poppins'), url(./assets/fonts/Poppins-Bold.otf);
 }
 @font-face {
   font-family: Futura;
-  src: url(./assets/fonts/Futura\ Heavy\ font.ttf);
+  src: local ('Futura'), url(./assets/fonts/Futura\ Heavy\ font.ttf)
 }
 /* End of adding fonts */
 body {
