@@ -42,6 +42,8 @@ The following have been used on this project:
 - Github
 
 ## SCREENSHOTS OF THE WEBPAGE APPLICATION.
+![React](https://github.com/swarui/phase-2-wk1-code-challenge-flatiron-bank-/assets/135341074/92df871f-c32d-47b0-9984-de35c1f53ac3)
+![React 1](https://github.com/swarui/phase-2-wk1-code-challenge-flatiron-bank-/assets/135341074/e5a2e718-359e-4938-8aff-9d0981beb232)
 
 
 ## CONTRIBUTING
