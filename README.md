@@ -27,7 +27,6 @@ Using `Bank of flatiron web app`, users can be able to ;
 
 The following have been used on this project:
 
-- HTML
 - CSS
 - React
 
